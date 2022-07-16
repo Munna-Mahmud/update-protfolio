@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 4rem;
+  background-color: #244e81;
+  height: 45vh;
+
+}
+
+ul li{
+  list-style: none;
+  text-align: center;
+  display: flex;
+  padding: 1rem;
+
+}
+
+
+li i{
+  color: white;
+}
+
+
+@media screen and (max-width: 480px){
+.footer {
+  margin-top: 4rem;
+  background-color: #244e81;
+  height: 60vh;
+
+}
+}

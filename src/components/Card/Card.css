@@ -1,0 +1,49 @@
+.cardss {
+  width: 10rem;
+  height: 15rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 14rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid #244e81;
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 0px 26px 2rem 26px;
+}
+.cardss span:nth-of-type(2) {
+  color: var(--gray);
+  font-size: 16px;
+}
+.cardss > img {
+  transform: scale(0.6);
+  margin-bottom: -2rem;
+}
+.c-button {
+    background: #FFFFFF;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #d3bb9c;
+    margin-top: 10px;
+}
+
+.c-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* cards */
+
+
+
+
+@media screen and (max-width: 480px){
+  .cardss{
+    width: auto;
+  }
+}

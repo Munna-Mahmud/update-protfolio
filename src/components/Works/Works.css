@@ -1,0 +1,37 @@
+.works {
+  padding: 0 3rem 0 3rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  
+  align-items: center;
+  height: 100vh;
+}
+.munna{
+  background-image: url('../../img/munna.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80vh;
+  width: 100%;
+  border: 2rem solid #244e81;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .works {
+    padding: 0 3rem 0 3rem;
+    margin-top: 4rem;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .munna{
+    background-image: url('../../img/munna.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50vh;
+    width: 100%;
+    
+  }
+}
