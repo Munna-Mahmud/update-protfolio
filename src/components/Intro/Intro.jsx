@@ -52,14 +52,6 @@ const Intro = () => {
         <img src={Vector2} alt="" />
         <img style={{width: '50% '}} src={boy} alt="" />
         {/* animation */}
-        <motion.video
-          initial={{ left: "-36%", width:'100%' }}
-          whileInView={{ left: "-24%" }}
-          transition={transition}
-          // src={glassesimoji}
-        
-          alt=""
-        />
 
         <motion.div
           initial={{ top: "-4%", left: "74%" }}

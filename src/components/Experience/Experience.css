@@ -55,6 +55,11 @@
     color: #244e81;
 }
 
+/* @media screen and (max-width: 480px) {
+    .skill-container {
+        margin-top: 40rem;
+    }
+} */
 @media screen and (max-width: 600px) {
     .experience {
         transform: scale(0.7);
@@ -74,9 +79,10 @@
         margin-top: 2rem;
     }
     .skill-container {
-        margin-top: 40rem;
+        margin-top: 49rem;
     }
 }
+
 
 @media screen and (max-width: 1080px) and (min-width: 610px) {
     .skill-container {

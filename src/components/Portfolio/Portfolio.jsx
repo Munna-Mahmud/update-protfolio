@@ -18,7 +18,7 @@ const Portfolio = () => {
         <span>Projects</span>
         <p>Learning the theory is good, but applying your knowledge on a project is AWESOME!!</p>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
             <img src={Sidebar} class="card-img-top" alt="..." />
