@@ -52,6 +52,14 @@ const Intro = () => {
         <img src={Vector2} alt="" />
         <img style={{width: '50% '}} src={boy} alt="" />
         {/* animation */}
+        <motion.div
+          // initial={{ left: "-36%", width:'100%' }}
+          // whileInView={{ left: "-24%" }}
+          // transition={transition}
+          // src={glassesimoji}
+        
+          alt=""
+        />
 
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
@@ -67,7 +75,7 @@ const Intro = () => {
           initial={{ left: "9rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
-          className="floating-div"
+          className="floating-div Mern"
         >
           {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv img={thumbup} text1="MERN Stack " text2="Developer" />
