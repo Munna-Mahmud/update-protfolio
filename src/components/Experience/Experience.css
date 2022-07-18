@@ -79,14 +79,14 @@
         margin-top: 2rem;
     }
     .skill-container {
-        margin-top: 49rem;
+        margin-top: 1rem;
     }
 }
 
 
 @media screen and (max-width: 1080px) and (min-width: 610px) {
     .skill-container {
-        margin-top: 20rem;
+        margin-top: 2rem;
     }
   }
 

@@ -1,12 +1,26 @@
-.works {
+/* .works {
   padding: 0 3rem 0 3rem;
   margin-top: 5rem;
   margin-bottom: 4rem;
   
   align-items: center;
   height: 100vh;
+} */
+
+
+.about-info {
+  margin-top: 12rem !important;
 }
-.munna{
+.about-img img{
+  border-radius: 4rem;
+  height: 80%;
+}
+@media screen and (max-width: 750px) {
+  .about-info{
+    margin-top: 7rem !important;
+  }
+}
+/* .munna{
   background-image: url('../../img/munna.jpeg');
   background-repeat: no-repeat;
   background-position: center;
@@ -15,9 +29,9 @@
   width: 100%;
   border: 2rem solid #244e81;
   border-radius: 2rem;
-}
+} */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .works {
     padding: 0 3rem 0 3rem;
     margin-top: 4rem;
@@ -34,4 +48,4 @@
     width: 100%;
     
   }
-}
+} */

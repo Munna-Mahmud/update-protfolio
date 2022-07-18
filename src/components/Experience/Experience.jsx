@@ -9,7 +9,7 @@ const Experience = () => {
   return (
 
     <div className="container skill-container" id="skill">
-      <div className="text-center p-5">
+      <div className="text-center pt-5 pb-5">
        <span className="skill-title">My Skills </span>
       </div>
       <div class="row text-center  ">

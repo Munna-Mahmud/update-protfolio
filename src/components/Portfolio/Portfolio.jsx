@@ -25,8 +25,8 @@ const Portfolio = () => {
             <div class="card-body">
               <h5 class="card-title" style={{ color: darkMode ? 'black' : '' }} >Skateboarding</h5>
               <div className="d-flex justify-content-between pt-3">
-                <p><a href="https://github.com/Munna-Mahmud/skateboarding_client_side_code" target={"_blank"} className="button s-button text-decoration-none">Server-Side</a></p>
-                <p><a href="https://github.com/Munna-Mahmud/skateboarding_client_side_code" target={"_blank"} className="button s-button text-decoration-none">Client-Side</a></p>
+                <p><a href="https://github.com/Munna-Mahmud/skateboarding_client_side_code" target={"_blank"} className="button s-button text-decoration-none">Server</a></p>
+                <p><a href="https://github.com/Munna-Mahmud/skateboarding_client_side_code" target={"_blank"} className="button s-button text-decoration-none">Client</a></p>
 
                 <p><a href="https://go-surf-e8722.web.app/" target={"_blank"} className="button s-button text-decoration-none">Live Site</a></p>
               </div>
@@ -40,8 +40,8 @@ const Portfolio = () => {
             <div class="card-body">
               <h5 class="card-title" style={{ color: darkMode ? 'black' : '' }} >Travel With Traveliy </h5>
               <div className="d-flex justify-content-between pt-3">
-                <p> <a target={"_blank"} href="https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Munna-Mahmud" className="button s-button text-decoration-none">Server-Side</a></p>
-                <p><a href="https://github.com/Munna-Mahmud/traveliy-client-site" target={"_blank"} className="button s-button text-decoration-none">Client-Side</a></p>
+                <p> <a target={"_blank"} href="https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Munna-Mahmud" className="button s-button text-decoration-none">Server</a></p>
+                <p><a href="https://github.com/Munna-Mahmud/traveliy-client-site" target={"_blank"} className="button s-button text-decoration-none">Client</a></p>
                 <p> <a href="https://travel-with-traveliy.netlify.app/" target={"_blank"} className="button s-button text-decoration-none">Live Site</a></p>
               </div>
             </div>
