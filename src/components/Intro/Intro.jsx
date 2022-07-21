@@ -41,7 +41,7 @@ const Intro = () => {
         </a>
         {/* social icons */}
         <div className="i-icons">
-        <a href="https://github.com/Munna-Mahmud"><img src={Github} alt="" /></a>  
+        <a href="https://github.com/Munna-Mahmud" style={{ backgroundColor: darkMode ? "#3079ab" : "", borderRadius:"40px" }}><img src={Github} alt="" /></a>  
        <a href="https://www.linkedin.com/in/munna-mahmud-babu28/"><img src={LinkedIn} alt="" /></a>
           <img src={Instagram} alt="" />
         </div>

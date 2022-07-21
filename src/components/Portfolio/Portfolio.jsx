@@ -4,7 +4,9 @@ import "./Portfolio.css";
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
+import HOC1 from "../../img/hoc (2).png";
+import HOC2 from "../../img/hoc3 (2).png";
+import HOC from "../../img/hoc3 (1).png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -19,6 +21,7 @@ const Portfolio = () => {
         <p>Learning the theory is good, but applying your knowledge on a project is AWESOME!!</p>
       </div>
       <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+        
         <div class="col">
           <div class="card">
             <img src={Sidebar} class="card-img-top" alt="..." />
@@ -62,39 +65,41 @@ const Portfolio = () => {
         </div>
         <div class="col">
           <div class="card">
-            <img src={HOC} class="card-img-top" alt="..." />
+            <img src={HOC1} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <div className="d-flex justify-content-between">
-                <a href="#">GitHub</a>
+              <h5 class="card-title" style={{ color: darkMode ? 'black' : '' }} >Panda E-commerce</h5>
+              <div className="d-flex justify-content-between pt-3">
+                <p> <a href="#" target={"_blank"} className="button s-button text-decoration-none">GitHub</a></p>
                 ||
-                <p>Live Site</p>
+                <p > <a href="https://ecommerweb.netlify.app/" target={"_blank"} className="button s-button text-decoration-none">Live Site</a> </p>
               </div>
             </div>
           </div>
         </div>
+      
         <div class="col">
           <div class="card">
-            <img src={HOC} class="card-img-top" alt="..." />
+            <img src={HOC2} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <div className="d-flex justify-content-between">
-                <a href="#">GitHub</a>
+              <h5 class="card-title" style={{ color: darkMode ? 'black' : '' }} >Egnineerimng Institue</h5>
+              <div className="d-flex justify-content-between pt-3">
+                <p> <a href="#" target={"_blank"} className="button s-button text-decoration-none">GitHub</a></p>
                 ||
-                <p>Live Site</p>
+                <p > <a href="https://munna-mahmud.github.io/ENGINEERING-INSTITUTION/" target={"_blank"} className="button s-button text-decoration-none">Live Site</a> </p>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card">
             <img src={HOC} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <div className="d-flex justify-content-between">
-                <a href="#">GitHub</a>
+              <h5 class="card-title" style={{ color: darkMode ? 'black' : '' }} >Learn About Islam</h5>
+              <div className="d-flex justify-content-between pt-3">
+                <p> <a href="#" target={"_blank"} className="button s-button text-decoration-none">GitHub</a></p>
                 ||
-                <p>Live Site</p>
+                <p > <a href="https://learnislam.netlify.app" target={"_blank"} className="button s-button text-decoration-none">Live Site</a> </p>
               </div>
             </div>
           </div>
