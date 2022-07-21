@@ -11,14 +11,29 @@
 .about-info {
   margin-top: 12rem !important;
 }
+.about-img {
+  padding: 5rem;
+  
+  /* border-radius: 4rem;
+  height: 80%; */
+}
+
 .about-img img{
+  height: 50% !important;
   border-radius: 4rem;
-  height: 80%;
+  border: 3rem solid #3079ab;
 }
 @media screen and (max-width: 750px) {
   .about-info{
     margin-top: 7rem !important;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .about-img {
+    padding: 1rem;
+}
+  
 }
 /* .munna{
   background-image: url('../../img/munna.jpeg');

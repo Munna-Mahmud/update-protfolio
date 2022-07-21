@@ -36,8 +36,8 @@ const Intro = () => {
         I am a Web Developer, I'm very passionate and dedicated to my work. With 1+ years experience as a professional a Front-End Developer, I have acquired the skills and knowledge necessary to make your project a success.
           </p>
         </div>
-        <a href={Resume} download>
-          <button className="button s-button">Resume</button>
+        <a href='#' target={"_blank"} className="s-button  " >
+     <button className="button  font-style-nonen ps-4 pe-4">   Resume</button>
         </a>
         {/* social icons */}
         <div className="i-icons">
